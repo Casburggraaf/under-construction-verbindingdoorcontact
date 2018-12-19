@@ -5,17 +5,17 @@
   "description": "Simple simple splash page to use while a site is still under construction",
   "main": "Gruntfile.js",
   "devDependencies": {
-    "grunt": "*",
-    "grunt-contrib-jshint": "~0.8.0",
-    "grunt-contrib-watch": "*",
-    "grunt-contrib-concat": "*",
-    "grunt-contrib-uglify": "~0.3.2",
-    "grunt-contrib-compass": "~0.7.1",
-    "grunt-usemin": "*",
-    "load-grunt-tasks": "~0.3.0",
-    "grunt-contrib-copy": "~0.5.0",
+    "grunt": "^0.4.5",
     "grunt-contrib-clean": "*",
-    "grunt-favicons": "~0.6.0"
+    "grunt-contrib-compass": "~0.7.1",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-watch": "*",
+    "grunt-favicons": "^0.7.0",
+    "grunt-usemin": "*",
+    "load-grunt-tasks": "~0.3.0"
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,8 @@
   "keywords": [
     "site",
     "template"
-  ]
+  ],
+  "dependencies": {
+    "execSync": "^1.0.2"
+  }
 }
